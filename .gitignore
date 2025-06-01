@@ -3,3 +3,4 @@ pytorch/raw/
 pytorch/processed/
 **/.ipynb_checkpoints/
 **/*.pt
+**/lightning_logs/
