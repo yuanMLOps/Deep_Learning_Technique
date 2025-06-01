@@ -1,0 +1,5 @@
+data/
+pytorch/raw/
+pytorch/processed/
+**/.ipynb_checkpoints/
+**/*.pt

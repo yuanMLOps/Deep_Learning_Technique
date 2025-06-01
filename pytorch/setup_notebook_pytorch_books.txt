@@ -1,0 +1,34 @@
+python -m ipykernel install --user --name=gpu --display-name "Python gpu"
+
+conda create -n gpu python=3.9
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+for python 3.8
+conda install pytorch==1.10.0 torchvision==0.11.1 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch
+conda install torchtext==0.11.0 -c pytorch 
+
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+
+Modern Time Series Forecasting with Python: Industry-ready machine learning and deep learning time series analysis with PyTorch and pandas
+
+Graph Neural Networks in Action
+
+Pytorch Geometric:
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+pip install torch-scatter torch-sparse -f https://pytorch-geometric.com/whl/torch-2.5.1+cu121.html
+
+pip install torch-geometric
+
+pip install sympy==1.13.1
+
+pip install matplotlib
+
+pip install ipykernel
+
+python -m ipykernel install --user --name=gpu_gnn --display-name gpu_gnn
+
+
+
